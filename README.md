@@ -5,6 +5,12 @@ A simple python script using Tesseract OCR engine to extract texts in batch imag
 Put all images to `input` folder
 Output will be store in `output` folder relative to the folder where you run this script.
 
+## Dependencies
+```
+pip install pytesseract
+pip install opencv-python
+```
+
 1. Download Tesseract for Windows from https://github.com/UB-Mannheim/tesseract/wiki
 Or use this latest one: https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.0-alpha.20210506.exe
 2. Add the default Tesseract installation path to System Environment `PATH` variable 
